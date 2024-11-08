@@ -1,6 +1,6 @@
 const search=async ()=>{
     console.log(country.value);
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${country.value}&appid=7070d686d26048ffa1aa911c7c4bcb83`)
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${country.value}&appid=5fe36b192ffd1c36dffb6752bc1722b2`)
 
     response.json().then((data) => {
         console.log(data);
